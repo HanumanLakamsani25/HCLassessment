@@ -1,7 +1,12 @@
 package com.main;
 
 import com.pojo.Average;
-
+/**
+ * 
+ * 
+ * author @Hanuman.L
+ * 
+ */
 public class MainAverage {
 
 	public static void main(String[] args) {

@@ -1,15 +1,30 @@
 package com.main;
 
 import com.pojo.Swap;
-
+import java.util.Scanner;
+/**
+ * 
+ * 
+ * author @Hanuman.L
+ * 
+ */
 public class MainSwap {
 
 	public static void main(String[] args) {
-		Swap swap = new Swap();
-		swap.setNum1(20);
-		swap.setNum2(10);
-		System.out.println("Before Swapping num1= "+swap.getNum1()+" and num2 = "+swap.getNum2()  );
-		System.out.println("After Swapping num1= "+swap.swap()  );
+	Scanner scanner=new Scanner(System.in);
+		
+		System.out.print("Enter num1:");
+		scanner.nextInt();
+		
+		System.out.print("Enter num2: ");
+		scanner.nextInt();
+		
+		Swap swap=new Swap();
+		int[] swapvalues=swap.swap();
+		System.out.println("After swapping the values are: "+ swapvalues[0]+" "+ swapvalues[1]);
+		
+		swap=null;
+		scanner =null;
 	}
-
 }
+

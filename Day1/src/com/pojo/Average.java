@@ -1,5 +1,10 @@
 package com.pojo;
-
+/**
+ * 
+ * 
+ * author @Hanuman.L
+ * 
+ */
 public class Average {
  private int num1;
  private int num2;
